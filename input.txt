@@ -1,0 +1,17 @@
+n = int(input())
+arr = []
+for _ in range(n):
+    arr.append(int(input()))
+ars = sorted(arr)
+for i in arr:
+    k = i
+    win = True
+    for j in ars:
+        if k < j:
+            win = False
+            break
+        elif k == j:
+            pass
+        else:
+            k += j
+    print(1 if win else 0)
