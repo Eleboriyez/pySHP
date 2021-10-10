@@ -1,5 +1,5 @@
 def main():
-    print("Hi, GitHub!")
+    print("Hello, GitHub!")
 
 
 if __name__ == '__main__':
